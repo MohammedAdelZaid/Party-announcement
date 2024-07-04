@@ -1,0 +1,130 @@
+/* ------------------------Home Section------------------- */
+
+
+.Home-section img{
+
+    height: 100vh;
+    width: 100%;
+    
+    }
+    
+.layer{
+    
+    background-color: rgba(137, 43, 226, 0.432);
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom:0;
+    right:0;
+    
+    }
+
+
+.layer h1{
+
+font-size: 60px;
+
+    }
+
+    /* ------------------------Side-Bar Section------------------- */
+
+.sideBar-Content{
+
+position: fixed;
+top:0;
+bottom: 0;
+align-items: center;
+}
+.sidebar{
+    
+    display: none;
+
+width: 250px;
+height: 100vh;
+background-color: rgba(0, 0, 0, 0.918);
+
+}
+.nav-style{
+
+    list-style: none;
+}
+
+
+.open{
+cursor: pointer;
+
+}
+
+.exite-icon{
+
+    right: 30px;
+}
+
+.nav-prop{
+    color: white;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+
+.nav-prop:hover{
+    color: rgba(255, 0, 0, 0.774);
+}
+
+
+/* ------------------------singer Section------------------- */
+
+.singer{
+background-color:#E68285;
+cursor: pointer;
+
+}
+
+.description{
+
+    background-color: gray;
+    display: none;    
+
+
+
+}
+
+
+/* ------------------------counter Section------------------- */
+
+.count{
+width: 100%;
+height: 300px;
+background-color: #E68285;
+}
+
+.timer{
+
+background-image: url(../imgs/OIP.jfif);
+background-position: center;
+background-size: cover;
+
+    } 
+
+.test{
+background-color: #e6828560;
+height: 300px;
+
+}
+
+.box{
+width: 200px;
+height: 150px;
+border: 5px solid white;
+
+}
+
+/* a i{
+
+    border: 1px solid rgba(128, 128, 128, 0.555);
+} */
+
